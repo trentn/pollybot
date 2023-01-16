@@ -258,9 +258,9 @@ ros2 run micro_ros_setup create_agent_ws.sh
 ros2 run micro_ros_setup build_agent.sh
 source $WORKSPACE/install/setup.bash
 
-#### 2.1 Download linorobot2:
+#### 2.1 Download pollybot:
 cd $WORKSPACE
-git clone -b $ROS_DISTRO https://github.com/linorobot/linorobot2 src/linorobot2
+git clone -b $ROS_DISTRO https://github.com/trentn/pollybot src/linorobot2
 
 #### 2.2 Ignore Gazebo Packages on robot computer (optional)
 cd $WORKSPACE/src/linorobot2/linorobot2_gazebo
